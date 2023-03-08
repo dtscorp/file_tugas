@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan 3 - Form</title>
+</head>
+<body>
+		
+	<table border="1" align="center" cellpadding="5" cellspacing="5">
+	<thead>
+		<tr>
+			<th colspan="2" bgcolor="grey"><h1>Buku Tamu</h1></th>
+		</tr>
+	</thead>
+	<tbody>
+	<form>
+		<tr>
+			<td><label>nama</label></td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td><label>e-mail</label></td>
+			<td><input type="text" name="email"></td>
+		</tr>
+		<tr>
+			<td><label>jenis Kelamin</label></td>
+			<td>
+				<input type="radio" name="jk" value="P"> Perempuan
+				<input type="radio" name="jk" value="L"> Laki-laki
+			</td>
+		</tr>
+		<tr>
+			<td><label>hobby</label></td>
+			<td>
+				<input type="checkbox" name="hobby" value="membaca"> membaca <br>
+				<input type="checkbox" name="hobby" value="futsal"> futsal <br>
+				<input type="checkbox" name="hobby" value="hiking"> hiking <br>
+				<input type="checkbox" name="hobby" value="memancing"> memancing
+			</td>
+		</tr>
+		<tr>
+			<td><label>pendidikan terakhir</label></td>
+			<td>
+				<select name="pendidikan">
+					<option value="" selected>---pilih salah satu---</option>
+					<option value="smp">SMP</option>
+					<option value="sma">SMA</option>
+					<option value="D3">D3</option>
+					<option value="s1">S1</option>
+					<option value="s2">S2</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><label>komentar</label></td>
+			<td><textarea name="komentar" rows="3" cols="30"></textarea></td>
+		</tr>
+		<tfoot>
+			<tr>
+				<th colspan="2"  bgcolor="grey">
+					<input type="submit" name="proses" value="kirim">&nbsp;
+					<input type="reset" name="disproses" value="batal">
+				</th>
+			</tr>
+		</tfoot>
+	</form>
+	</tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@font-face{
+	font-family: myFirstFont;
+	src: url('../font/Roboto/Roboto-BlackItalic.ttf');
+}
+*{
+	font-family: myFirstFont;
+}
+a{
+	text-decoration: none;
+}
+.home{
+	text-align: center;
+	color: #6096B4;
+}
+#narative{
+	color: #A7727D;
+}
+#pp{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lup{
+	max-width: 10%;
+  	height: auto;
+}
+.contact
+{
+	width: 10%;
+}
+.side{
+	background-color: #93BFCF;
+}
+.menu{
+	background-color: #6096B4;
+}
+th a{
+	color: black;
+}
+th a:hover{
+/*	background-color: #6096B1;*/
+	color:white !important ;
+}
+th a:active{
+	text-decoration:none;
+	border:2px solid green;
+	padding:25px;
+	background-color:yellow;
+	margin:0px 5px;
+
+}
+ol{
+	list-style-image: url('../img/rocket.gif');
+}

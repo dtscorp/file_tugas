@@ -1,0 +1,132 @@
+body{
+	/*background-image: linear-gradient(to right, #DDDDDD, #EEEEEE, #B7B78A, #658864);*/
+	background-color:#DDDDDD;
+	background-image:url('../images/iklan.jpg');
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-attachment:fixed;
+	margin:0cm 3.5cm; /* pasangan margin atas & bawah, kanan&kiri */
+}
+h1{
+	color:#3A1078;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	text-shadow: 3px 3px 3px orange;
+}
+hr{
+	border:red dashed 2px;
+	margin:20px 0px;
+}
+p{
+	text-align:justify;
+	text-indent:0.5cm;
+	padding:20px;
+	color:blue;
+	line-height:0.5cm;
+	word-spacing:5px;
+	font-size:14pt;
+}
+fieldset,legend,img{ /* groupping */
+	border:magenta 5px outset;
+	border-radius:50px;
+	padding:10px;
+	background-color:#F5EAEA;
+	color:#F16767;
+}
+*{ /* universal */
+	font-family:cambria, calibri, consolas;
+}
+/*-----------pseudo class-----------*/
+div#menu a:link, a:visited{
+	text-decoration:none;
+	border:2px solid #2B3467;
+	padding:5px;
+	background-color:#BAD7E9;
+	margin:0px 5px;
+}
+div#menu a:hover{
+	text-decoration:none;
+	border:2px solid #F94A29;
+	padding:5px;
+	background-color:#FCE22A;
+	margin:0px 5px;
+}
+div#menu a:active{
+	text-decoration:none;
+	border:2px solid green;
+	padding:25px;
+	background-color:yellow;
+	margin:0px 5px;
+}
+div#menu{
+	text-align:center;
+}
+#atas, #bawah{
+	text-align:right;
+}
+p.panah_atas a:link, a:visited{
+	text-decoration:none;
+	font-size:25pt;
+	color:orange;
+	font-weight:bolder;
+}
+p.panah_bawah a:link, a:visited{
+	text-decoration:none;
+	font-size:25pt;
+	color:orange;
+	font-weight:bolder;
+}
+p.panah_atas a:hover{
+	text-decoration:none;
+	font-size:50pt;
+	color:red;
+	font-weight:bolder;
+}
+p.panah_bawah a:hover{
+	text-decoration:none;
+	font-size:50pt;
+	color:red;
+	font-weight:bolder;
+}
+p.p2{
+	text-align:justify;
+	color:red;
+	text-indent:0cm;
+}
+/*----------------pseudo element-----------------*/
+p.p2:first-letter{
+	font-size:50pt;
+	font-family:consolas, calibri, cambria;
+	float:left;
+	padding-top:20px;
+	padding-right:10px;
+	padding-bottom:10px;
+	color:red;
+}
+p.p2:first-line{
+	font-family:consolas, calibri, cambria;
+	background-color:yellowgreen;
+	color:blue;
+	font-style:italic;
+}
+ol{
+	list-style-image:url('../images/nyanyi.gif');
+}
+ul{
+	list-style-image:url('../images/jempol.gif');
+}
+ul.makanan{
+	list-style-image:url('../images/heart.png');
+}
+ul.minuman{
+	list-style-image:url('../images/smile.png');
+}
+/*-----------web font-----------*/
+@font-face {
+   font-family: myFirstFont;
+   src: url('../fonts/MondayFeelings.ttf');
+}
+
+* {
+   font-family: myFirstFont;
+}
